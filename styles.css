@@ -179,3 +179,57 @@ footer{
     margin-left: 46px;
     align-items: center;
 }
+@media (max-width: 600px){
+    body{
+        width: 100%;
+        background-size:cover;
+        background-position-x: left;
+        padding: 0px;
+        border: 0px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .top{
+        padding: 0px;
+        margin: 0px;
+        
+        
+    }
+    .navi{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-bar{
+        display: flex;
+        width: 100%;
+    }
+    .nav-bar,ul{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        /* width: 100%; */
+    }
+    .menu{
+        position: relative;
+        display: block;
+        justify-content: space-between;
+        padding-left: 20px;
+        /* width: 100%; */
+    }
+    
+    .images{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* grid-row-start: 1;
+        grid-row-end: 3; */
+        gap: 20px;
+        
+        
+
+    }
+    .artists{
+        display: flex;
+        flex-direction: column;
+    }
+}
